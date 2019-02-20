@@ -96,9 +96,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxonline',
-        'USER': 'root',
-        'PASSWORD': 'lh123456',
-        'HOST': '127.0.0.1',
         'OPTIONS': {
            'init_command': 'SET default_storage_engine=INNODB',
         }
@@ -160,6 +157,5 @@ EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 EMAIL_HOST_USER = '402638794@qq.com'
 EMAIL_FROM = '402638794@qq.com'
-EMAIL_HOST_PASSWORD = 'xuxnlhgsyimibghaahern'  # 授权码
 EMAIL_SUBJECT_PREFIX = '[python学习平台]'
 EMAIL_USE_TLS = True  # 与SMTP服务器通信时是否使用TLS（安全）连接
